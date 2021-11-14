@@ -1,0 +1,6 @@
+framework module Pods_AA_hackUTD_AA_hackUTDUITests {
+  umbrella header "Pods-AA_hackUTD-AA_hackUTDUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

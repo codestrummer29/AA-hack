@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AA_hackUTD' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AA_hackUTD
+#cloud Database
+pod 'Firebase/Firestore'
+# Add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
+
+# For Analytics without IDFA collection capability, use this pod instead
+# pod ‘Firebase/AnalyticsWithoutAdIdSupport’
+
+# Add the pod for Firebase Cloud Messaging
+pod 'Firebase/Messaging'
+  target 'AA_hackUTDTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AA_hackUTDUITests' do
+    # Pods for testing
+  end
+
+end
